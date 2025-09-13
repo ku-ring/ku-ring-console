@@ -109,7 +109,7 @@ export default function FeedbacksPage() {
 
   const handlePageChange = (newPage) => {
     // URL 파라미터를 업데이트하고 Loader가 다시 실행되도록 함
-    navigate(`/feedbacks?page=${newPage}`);
+    navigate(`/dashboard/feedbacks?page=${newPage}`);
   };
 
   if (loading) {
